@@ -58,7 +58,7 @@ namespace zerog
             {
                 foreach (var th in thrusters)
                 {
-                    if (thr > 0)
+                    if (thr >= 0)
                     {
                         if (th.alignment == Alignment.Backward)
                         {
@@ -95,31 +95,19 @@ namespace zerog
             }
         }
 
-        void FixedUpdate()
-        {
-            if (thr > 0)
-            {
-                Thrust(thr);
-            }
-            else if (thr < 0)
-            {
-                Stop();
-            }
-            if (rot != 0)
-            {
-                Turn(rot);
-            }
-        }
-
         #region IShip Implementation
 
         public void Thrust(float power)
         {
+            Vector3 vel = Vector3.zero;
             foreach (var e in engines)
             {
-                var thrust = Quaternion.AngleAxis(-e.Turn(rot), pos.up) * e.Thrust(thr, -pos.forward);
-                bod.AddForce(thrust);
+                var thrust = e.Thrust(power, pos.forward);
+                //thrust *= Quaternion.AngleAxis(-e.Turn(rot), pos.up);
+                //bod.AddForce(thrust);
+                vel += thrust;
             }
+            bod.velocity = vel;
             //Debug.Log ("Thrusting " + f);
         }
 

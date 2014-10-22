@@ -1,0 +1,2008 @@
+fileFormatVersion: 2
+guid: 2fff81b8f58ee854d9b3032dd41a6e90
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AA_gattling_base
+    100002: AA_gattling_base 1
+    100004: AA_gattling_base 2
+    100006: AA_gattling_base 3
+    100008: AA_gattling_base 4
+    100010: AA_gattling_base 5
+    100012: AA_gattling_base 6
+    100014: AA_gattling_base 7
+    100016: AA_gattling_gun
+    100018: AA_gattling_gun 1
+    100020: AA_gattling_gun 10
+    100022: AA_gattling_gun 11
+    100024: AA_gattling_gun 12
+    100026: AA_gattling_gun 13
+    100028: AA_gattling_gun 14
+    100030: AA_gattling_gun 15
+    100032: AA_gattling_gun 16
+    100034: AA_gattling_gun 17
+    100036: AA_gattling_gun 18
+    100038: AA_gattling_gun 19
+    100040: AA_gattling_gun 2
+    100042: AA_gattling_gun 20
+    100044: AA_gattling_gun 21
+    100046: AA_gattling_gun 22
+    100048: AA_gattling_gun 23
+    100050: AA_gattling_gun 24
+    100052: AA_gattling_gun 25
+    100054: AA_gattling_gun 26
+    100056: AA_gattling_gun 27
+    100058: AA_gattling_gun 28
+    100060: AA_gattling_gun 29
+    100062: AA_gattling_gun 3
+    100064: AA_gattling_gun 30
+    100066: AA_gattling_gun 31
+    100068: AA_gattling_gun 32
+    100070: AA_gattling_gun 33
+    100072: AA_gattling_gun 34
+    100074: AA_gattling_gun 35
+    100076: AA_gattling_gun 36
+    100078: AA_gattling_gun 37
+    100080: AA_gattling_gun 38
+    100082: AA_gattling_gun 39
+    100084: AA_gattling_gun 4
+    100086: AA_gattling_gun 40
+    100088: AA_gattling_gun 41
+    100090: AA_gattling_gun 42
+    100092: AA_gattling_gun 43
+    100094: AA_gattling_gun 44
+    100096: AA_gattling_gun 45
+    100098: AA_gattling_gun 46
+    100100: AA_gattling_gun 47
+    100102: AA_gattling_gun 48
+    100104: AA_gattling_gun 49
+    100106: AA_gattling_gun 5
+    100108: AA_gattling_gun 50
+    100110: AA_gattling_gun 51
+    100112: AA_gattling_gun 52
+    100114: AA_gattling_gun 53
+    100116: AA_gattling_gun 54
+    100118: AA_gattling_gun 55
+    100120: AA_gattling_gun 56
+    100122: AA_gattling_gun 57
+    100124: AA_gattling_gun 58
+    100126: AA_gattling_gun 59
+    100128: AA_gattling_gun 6
+    100130: AA_gattling_gun 60
+    100132: AA_gattling_gun 61
+    100134: AA_gattling_gun 62
+    100136: AA_gattling_gun 63
+    100138: AA_gattling_gun 64
+    100140: AA_gattling_gun 65
+    100142: AA_gattling_gun 66
+    100144: AA_gattling_gun 67
+    100146: AA_gattling_gun 68
+    100148: AA_gattling_gun 69
+    100150: AA_gattling_gun 7
+    100152: AA_gattling_gun 8
+    100154: AA_gattling_gun 9
+    100156: AA_gattling_turret
+    100158: AA_gattling_turret 1
+    100160: AA_gattling_turret 10
+    100162: AA_gattling_turret 11
+    100164: AA_gattling_turret 12
+    100166: AA_gattling_turret 13
+    100168: AA_gattling_turret 2
+    100170: AA_gattling_turret 3
+    100172: AA_gattling_turret 4
+    100174: AA_gattling_turret 5
+    100176: AA_gattling_turret 6
+    100178: AA_gattling_turret 7
+    100180: AA_gattling_turret 8
+    100182: AA_gattling_turret 9
+    100184: ariel01
+    100186: Box09
+    100188: Box19
+    100190: Box21
+    100192: Box22
+    100194: cannon controller
+    100196: cannon controller 1
+    100198: cannon controller 2
+    100200: cannon controller02
+    100202: cannon controller03
+    100204: cannon controller04
+    100206: cannon controller05
+    100208: cannon controller06
+    100210: cannon controller07
+    100212: cannon controller08
+    100214: cannon gun controller01
+    100216: cannon gun controller02
+    100218: cannon_medium_base
+    100220: cannon_medium_base 1
+    100222: cannon_medium_base 10
+    100224: cannon_medium_base 11
+    100226: cannon_medium_base 12
+    100228: cannon_medium_base 13
+    100230: cannon_medium_base 14
+    100232: cannon_medium_base 15
+    100234: cannon_medium_base 16
+    100236: cannon_medium_base 17
+    100238: cannon_medium_base 2
+    100240: cannon_medium_base 3
+    100242: cannon_medium_base 4
+    100244: cannon_medium_base 5
+    100246: cannon_medium_base 6
+    100248: cannon_medium_base 7
+    100250: cannon_medium_base 8
+    100252: cannon_medium_base 9
+    100254: cannon_medium_gun
+    100256: cannon_medium_gun 1
+    100258: cannon_medium_gun 10
+    100260: cannon_medium_gun 11
+    100262: cannon_medium_gun 12
+    100264: cannon_medium_gun 13
+    100266: cannon_medium_gun 14
+    100268: cannon_medium_gun 15
+    100270: cannon_medium_gun 16
+    100272: cannon_medium_gun 17
+    100274: cannon_medium_gun 18
+    100276: cannon_medium_gun 19
+    100278: cannon_medium_gun 2
+    100280: cannon_medium_gun 20
+    100282: cannon_medium_gun 21
+    100284: cannon_medium_gun 22
+    100286: cannon_medium_gun 23
+    100288: cannon_medium_gun 24
+    100290: cannon_medium_gun 25
+    100292: cannon_medium_gun 26
+    100294: cannon_medium_gun 27
+    100296: cannon_medium_gun 28
+    100298: cannon_medium_gun 29
+    100300: cannon_medium_gun 3
+    100302: cannon_medium_gun 4
+    100304: cannon_medium_gun 5
+    100306: cannon_medium_gun 6
+    100308: cannon_medium_gun 7
+    100310: cannon_medium_gun 8
+    100312: cannon_medium_gun 9
+    100314: //RootNode
+    100316: Cube
+    100318: Cube_1
+    100320: Cube_2
+    100322: decal_crest
+    100324: decal_launch
+    100326: decal_launch 1
+    100328: Gattling Controller
+    100330: Gattling Controller01
+    100332: Gattling Controller02
+    100334: Gattling Controller03
+    100336: Gattling Controller04
+    100338: Gattling Controller05
+    100340: Gattling Controller07
+    100342: Gattling Controller08
+    100344: Gattling Controller09
+    100346: Gattling Controller12
+    100348: Gattling Controller13
+    100350: Gattling Controller14
+    100352: Gattling Controller15
+    100354: Gattling Controller16
+    100356: Gattling Controller19
+    100358: Gattling Controller20
+    100360: Gattling Controller21
+    100362: Gattling Controller22
+    100364: Gattling Controller23
+    100366: Gattling Controller24
+    100368: Gattling Controller25
+    100370: gattling gun controller
+    100372: gattling gun controller 1
+    100374: gattling gun controller 10
+    100376: gattling gun controller 11
+    100378: gattling gun controller 12
+    100380: gattling gun controller 13
+    100382: gattling gun controller 2
+    100384: gattling gun controller 3
+    100386: gattling gun controller 4
+    100388: gattling gun controller 5
+    100390: gattling gun controller 6
+    100392: gattling gun controller 7
+    100394: gattling gun controller 8
+    100396: gattling gun controller 9
+    100398: gattling gun controller01
+    100400: gattling gun controller02
+    100402: gattling gun controller03
+    100404: gattling gun controller04
+    100406: gattling gun controller05
+    100408: gattling gun controller06
+    100410: gattling gun controller07
+    100412: gattling_base
+    100414: gattling_base01
+    100416: gattling_base02
+    100418: gattling_base04
+    100420: gattling_base05
+    100422: gattling_base06
+    100424: gattling_base07
+    100426: gattling_base08
+    100428: gattling_base09
+    100430: gattling_base10
+    100432: gattling_base11
+    100434: gattling_base12
+    100436: gattling_base13
+    100438: gattling_base14
+    100440: gattling_base15
+    100442: gattling_base16
+    100444: gattling_base17
+    100446: gattling_gun
+    100448: gattling_gun 1
+    100450: gattling_gun 2
+    100452: gattling_gun 3
+    100454: gattling_gun 4
+    100456: gattling_gun 5
+    100458: gattling_gun 6
+    100460: gattling_gun 7
+    100462: gattling_gun 8
+    100464: gattling_gun01
+    100466: gattling_gun02
+    100468: gattling_gun03
+    100470: gattling_gun04
+    100472: gattling_gun05
+    100474: gattling_gun06
+    100476: gattling_gun07
+    100478: gattling_gun08
+    100480: gattling_gun09
+    100482: gattling_gun10
+    100484: gattling_gun100
+    100486: gattling_gun101
+    100488: gattling_gun102
+    100490: gattling_gun103
+    100492: gattling_gun104
+    100494: gattling_gun105
+    100496: gattling_gun106
+    100498: gattling_gun107
+    100500: gattling_gun108
+    100502: gattling_gun109
+    100504: gattling_gun11
+    100506: gattling_gun110
+    100508: gattling_gun111
+    100510: gattling_gun112
+    100512: gattling_gun113
+    100514: gattling_gun114
+    100516: gattling_gun115
+    100518: gattling_gun116
+    100520: gattling_gun117
+    100522: gattling_gun118
+    100524: gattling_gun119
+    100526: gattling_gun12
+    100528: gattling_gun120
+    100530: gattling_gun121
+    100532: gattling_gun122
+    100534: gattling_gun123
+    100536: gattling_gun124
+    100538: gattling_gun125
+    100540: gattling_gun126
+    100542: gattling_gun127
+    100544: gattling_gun128
+    100546: gattling_gun129
+    100548: gattling_gun13
+    100550: gattling_gun130
+    100552: gattling_gun131
+    100554: gattling_gun132
+    100556: gattling_gun133
+    100558: gattling_gun134
+    100560: gattling_gun135
+    100562: gattling_gun136
+    100564: gattling_gun137
+    100566: gattling_gun138
+    100568: gattling_gun139
+    100570: gattling_gun14
+    100572: gattling_gun140
+    100574: gattling_gun141
+    100576: gattling_gun142
+    100578: gattling_gun143
+    100580: gattling_gun144
+    100582: gattling_gun145
+    100584: gattling_gun146
+    100586: gattling_gun147
+    100588: gattling_gun148
+    100590: gattling_gun149
+    100592: gattling_gun15
+    100594: gattling_gun150
+    100596: gattling_gun151
+    100598: gattling_gun152
+    100600: gattling_gun153
+    100602: gattling_gun16
+    100604: gattling_gun17
+    100606: gattling_gun18
+    100608: gattling_gun28
+    100610: gattling_gun29
+    100612: gattling_gun30
+    100614: gattling_gun31
+    100616: gattling_gun32
+    100618: gattling_gun33
+    100620: gattling_gun34
+    100622: gattling_gun35
+    100624: gattling_gun36
+    100626: gattling_gun37
+    100628: gattling_gun38
+    100630: gattling_gun39
+    100632: gattling_gun40
+    100634: gattling_gun41
+    100636: gattling_gun42
+    100638: gattling_gun43
+    100640: gattling_gun44
+    100642: gattling_gun45
+    100644: gattling_gun46
+    100646: gattling_gun47
+    100648: gattling_gun48
+    100650: gattling_gun49
+    100652: gattling_gun50
+    100654: gattling_gun51
+    100656: gattling_gun52
+    100658: gattling_gun53
+    100660: gattling_gun54
+    100662: gattling_gun55
+    100664: gattling_gun56
+    100666: gattling_gun57
+    100668: gattling_gun58
+    100670: gattling_gun59
+    100672: gattling_gun60
+    100674: gattling_gun61
+    100676: gattling_gun62
+    100678: gattling_gun63
+    100680: gattling_gun64
+    100682: gattling_gun65
+    100684: gattling_gun66
+    100686: gattling_gun67
+    100688: gattling_gun68
+    100690: gattling_gun69
+    100692: gattling_gun70
+    100694: gattling_gun71
+    100696: gattling_gun72
+    100698: gattling_gun73
+    100700: gattling_gun74
+    100702: gattling_gun75
+    100704: gattling_gun76
+    100706: gattling_gun77
+    100708: gattling_gun78
+    100710: gattling_gun79
+    100712: gattling_gun80
+    100714: gattling_gun81
+    100716: gattling_gun82
+    100718: gattling_gun83
+    100720: gattling_gun84
+    100722: gattling_gun85
+    100724: gattling_gun86
+    100726: gattling_gun87
+    100728: gattling_gun88
+    100730: gattling_gun89
+    100732: gattling_gun90
+    100734: gattling_gun91
+    100736: gattling_gun92
+    100738: gattling_gun93
+    100740: gattling_gun94
+    100742: gattling_gun95
+    100744: gattling_gun96
+    100746: gattling_gun97
+    100748: gattling_gun98
+    100750: gattling_gun99
+    100752: gattling_turret
+    100754: gattling_turret01
+    100756: gattling_turret02
+    100758: gattling_turret04
+    100760: gattling_turret05
+    100762: gattling_turret06
+    100764: gattling_turret07
+    100766: gattling_turret08
+    100768: gattling_turret09
+    100770: gattling_turret10
+    100772: gattling_turret11
+    100774: gattling_turret12
+    100776: gattling_turret13
+    100778: gattling_turret14
+    100780: gattling_turret15
+    100782: gattling_turret16
+    100784: gattling_turret17
+    100786: Guns Platform
+    100788: main hull
+    100790: Object11
+    100792: parts
+    100794: parts 1
+    100796: parts 2
+    100798: parts 3
+    100800: parts03
+    100802: ship_command_deck_aux
+    100804: ship_excelsius
+    100806: ship_hull
+    100808: ship_hull 1
+    100810: ship_hull 2
+    100812: ship_hull 3
+    100814: ship_launch
+    100816: ship_launch 1
+    100818: ship_launch_bay
+    100820: ship_launch_bay 1
+    100822: ship_launch_bay 2
+    100824: ship_launch_bay 3
+    100826: ship_launch_bay 4
+    100828: ship_SFD
+    100830: ship_thrusters
+    100832: ship_thrusters 1
+    100834: ship_thrusters 10
+    100836: ship_thrusters 11
+    100838: ship_thrusters 12
+    100840: ship_thrusters 13
+    100842: ship_thrusters 14
+    100844: ship_thrusters 2
+    100846: ship_thrusters 3
+    100848: ship_thrusters 4
+    100850: ship_thrusters 5
+    100852: ship_thrusters 6
+    100854: ship_thrusters 7
+    100856: ship_thrusters 8
+    100858: ship_thrusters 9
+    100860: ship_turret_platform
+    100862: ship_turret_platform 1
+    100864: ship_vent
+    100866: ship_vent 1
+    100868: ship_vent 2
+    100870: ship_windows
+    100872: torpedo_hull
+    400000: AA_gattling_base
+    400002: AA_gattling_base 1
+    400004: AA_gattling_base 2
+    400006: AA_gattling_base 3
+    400008: AA_gattling_base 4
+    400010: AA_gattling_base 5
+    400012: AA_gattling_base 6
+    400014: AA_gattling_base 7
+    400016: AA_gattling_gun
+    400018: AA_gattling_gun 1
+    400020: AA_gattling_gun 10
+    400022: AA_gattling_gun 11
+    400024: AA_gattling_gun 12
+    400026: AA_gattling_gun 13
+    400028: AA_gattling_gun 14
+    400030: AA_gattling_gun 15
+    400032: AA_gattling_gun 16
+    400034: AA_gattling_gun 17
+    400036: AA_gattling_gun 18
+    400038: AA_gattling_gun 19
+    400040: AA_gattling_gun 2
+    400042: AA_gattling_gun 20
+    400044: AA_gattling_gun 21
+    400046: AA_gattling_gun 22
+    400048: AA_gattling_gun 23
+    400050: AA_gattling_gun 24
+    400052: AA_gattling_gun 25
+    400054: AA_gattling_gun 26
+    400056: AA_gattling_gun 27
+    400058: AA_gattling_gun 28
+    400060: AA_gattling_gun 29
+    400062: AA_gattling_gun 3
+    400064: AA_gattling_gun 30
+    400066: AA_gattling_gun 31
+    400068: AA_gattling_gun 32
+    400070: AA_gattling_gun 33
+    400072: AA_gattling_gun 34
+    400074: AA_gattling_gun 35
+    400076: AA_gattling_gun 36
+    400078: AA_gattling_gun 37
+    400080: AA_gattling_gun 38
+    400082: AA_gattling_gun 39
+    400084: AA_gattling_gun 4
+    400086: AA_gattling_gun 40
+    400088: AA_gattling_gun 41
+    400090: AA_gattling_gun 42
+    400092: AA_gattling_gun 43
+    400094: AA_gattling_gun 44
+    400096: AA_gattling_gun 45
+    400098: AA_gattling_gun 46
+    400100: AA_gattling_gun 47
+    400102: AA_gattling_gun 48
+    400104: AA_gattling_gun 49
+    400106: AA_gattling_gun 5
+    400108: AA_gattling_gun 50
+    400110: AA_gattling_gun 51
+    400112: AA_gattling_gun 52
+    400114: AA_gattling_gun 53
+    400116: AA_gattling_gun 54
+    400118: AA_gattling_gun 55
+    400120: AA_gattling_gun 56
+    400122: AA_gattling_gun 57
+    400124: AA_gattling_gun 58
+    400126: AA_gattling_gun 59
+    400128: AA_gattling_gun 6
+    400130: AA_gattling_gun 60
+    400132: AA_gattling_gun 61
+    400134: AA_gattling_gun 62
+    400136: AA_gattling_gun 63
+    400138: AA_gattling_gun 64
+    400140: AA_gattling_gun 65
+    400142: AA_gattling_gun 66
+    400144: AA_gattling_gun 67
+    400146: AA_gattling_gun 68
+    400148: AA_gattling_gun 69
+    400150: AA_gattling_gun 7
+    400152: AA_gattling_gun 8
+    400154: AA_gattling_gun 9
+    400156: AA_gattling_turret
+    400158: AA_gattling_turret 1
+    400160: AA_gattling_turret 10
+    400162: AA_gattling_turret 11
+    400164: AA_gattling_turret 12
+    400166: AA_gattling_turret 13
+    400168: AA_gattling_turret 2
+    400170: AA_gattling_turret 3
+    400172: AA_gattling_turret 4
+    400174: AA_gattling_turret 5
+    400176: AA_gattling_turret 6
+    400178: AA_gattling_turret 7
+    400180: AA_gattling_turret 8
+    400182: AA_gattling_turret 9
+    400184: ariel01
+    400186: Box09
+    400188: Box19
+    400190: Box21
+    400192: Box22
+    400194: cannon controller
+    400196: cannon controller 1
+    400198: cannon controller 2
+    400200: cannon controller02
+    400202: cannon controller03
+    400204: cannon controller04
+    400206: cannon controller05
+    400208: cannon controller06
+    400210: cannon controller07
+    400212: cannon controller08
+    400214: cannon gun controller01
+    400216: cannon gun controller02
+    400218: cannon_medium_base
+    400220: cannon_medium_base 1
+    400222: cannon_medium_base 10
+    400224: cannon_medium_base 11
+    400226: cannon_medium_base 12
+    400228: cannon_medium_base 13
+    400230: cannon_medium_base 14
+    400232: cannon_medium_base 15
+    400234: cannon_medium_base 16
+    400236: cannon_medium_base 17
+    400238: cannon_medium_base 2
+    400240: cannon_medium_base 3
+    400242: cannon_medium_base 4
+    400244: cannon_medium_base 5
+    400246: cannon_medium_base 6
+    400248: cannon_medium_base 7
+    400250: cannon_medium_base 8
+    400252: cannon_medium_base 9
+    400254: cannon_medium_gun
+    400256: cannon_medium_gun 1
+    400258: cannon_medium_gun 10
+    400260: cannon_medium_gun 11
+    400262: cannon_medium_gun 12
+    400264: cannon_medium_gun 13
+    400266: cannon_medium_gun 14
+    400268: cannon_medium_gun 15
+    400270: cannon_medium_gun 16
+    400272: cannon_medium_gun 17
+    400274: cannon_medium_gun 18
+    400276: cannon_medium_gun 19
+    400278: cannon_medium_gun 2
+    400280: cannon_medium_gun 20
+    400282: cannon_medium_gun 21
+    400284: cannon_medium_gun 22
+    400286: cannon_medium_gun 23
+    400288: cannon_medium_gun 24
+    400290: cannon_medium_gun 25
+    400292: cannon_medium_gun 26
+    400294: cannon_medium_gun 27
+    400296: cannon_medium_gun 28
+    400298: cannon_medium_gun 29
+    400300: cannon_medium_gun 3
+    400302: cannon_medium_gun 4
+    400304: cannon_medium_gun 5
+    400306: cannon_medium_gun 6
+    400308: cannon_medium_gun 7
+    400310: cannon_medium_gun 8
+    400312: cannon_medium_gun 9
+    400314: //RootNode
+    400316: Cube
+    400318: Cube_1
+    400320: Cube_2
+    400322: decal_crest
+    400324: decal_launch
+    400326: decal_launch 1
+    400328: Gattling Controller
+    400330: Gattling Controller01
+    400332: Gattling Controller02
+    400334: Gattling Controller03
+    400336: Gattling Controller04
+    400338: Gattling Controller05
+    400340: Gattling Controller07
+    400342: Gattling Controller08
+    400344: Gattling Controller09
+    400346: Gattling Controller12
+    400348: Gattling Controller13
+    400350: Gattling Controller14
+    400352: Gattling Controller15
+    400354: Gattling Controller16
+    400356: Gattling Controller19
+    400358: Gattling Controller20
+    400360: Gattling Controller21
+    400362: Gattling Controller22
+    400364: Gattling Controller23
+    400366: Gattling Controller24
+    400368: Gattling Controller25
+    400370: gattling gun controller
+    400372: gattling gun controller 1
+    400374: gattling gun controller 10
+    400376: gattling gun controller 11
+    400378: gattling gun controller 12
+    400380: gattling gun controller 13
+    400382: gattling gun controller 2
+    400384: gattling gun controller 3
+    400386: gattling gun controller 4
+    400388: gattling gun controller 5
+    400390: gattling gun controller 6
+    400392: gattling gun controller 7
+    400394: gattling gun controller 8
+    400396: gattling gun controller 9
+    400398: gattling gun controller01
+    400400: gattling gun controller02
+    400402: gattling gun controller03
+    400404: gattling gun controller04
+    400406: gattling gun controller05
+    400408: gattling gun controller06
+    400410: gattling gun controller07
+    400412: gattling_base
+    400414: gattling_base01
+    400416: gattling_base02
+    400418: gattling_base04
+    400420: gattling_base05
+    400422: gattling_base06
+    400424: gattling_base07
+    400426: gattling_base08
+    400428: gattling_base09
+    400430: gattling_base10
+    400432: gattling_base11
+    400434: gattling_base12
+    400436: gattling_base13
+    400438: gattling_base14
+    400440: gattling_base15
+    400442: gattling_base16
+    400444: gattling_base17
+    400446: gattling_gun
+    400448: gattling_gun 1
+    400450: gattling_gun 2
+    400452: gattling_gun 3
+    400454: gattling_gun 4
+    400456: gattling_gun 5
+    400458: gattling_gun 6
+    400460: gattling_gun 7
+    400462: gattling_gun 8
+    400464: gattling_gun01
+    400466: gattling_gun02
+    400468: gattling_gun03
+    400470: gattling_gun04
+    400472: gattling_gun05
+    400474: gattling_gun06
+    400476: gattling_gun07
+    400478: gattling_gun08
+    400480: gattling_gun09
+    400482: gattling_gun10
+    400484: gattling_gun100
+    400486: gattling_gun101
+    400488: gattling_gun102
+    400490: gattling_gun103
+    400492: gattling_gun104
+    400494: gattling_gun105
+    400496: gattling_gun106
+    400498: gattling_gun107
+    400500: gattling_gun108
+    400502: gattling_gun109
+    400504: gattling_gun11
+    400506: gattling_gun110
+    400508: gattling_gun111
+    400510: gattling_gun112
+    400512: gattling_gun113
+    400514: gattling_gun114
+    400516: gattling_gun115
+    400518: gattling_gun116
+    400520: gattling_gun117
+    400522: gattling_gun118
+    400524: gattling_gun119
+    400526: gattling_gun12
+    400528: gattling_gun120
+    400530: gattling_gun121
+    400532: gattling_gun122
+    400534: gattling_gun123
+    400536: gattling_gun124
+    400538: gattling_gun125
+    400540: gattling_gun126
+    400542: gattling_gun127
+    400544: gattling_gun128
+    400546: gattling_gun129
+    400548: gattling_gun13
+    400550: gattling_gun130
+    400552: gattling_gun131
+    400554: gattling_gun132
+    400556: gattling_gun133
+    400558: gattling_gun134
+    400560: gattling_gun135
+    400562: gattling_gun136
+    400564: gattling_gun137
+    400566: gattling_gun138
+    400568: gattling_gun139
+    400570: gattling_gun14
+    400572: gattling_gun140
+    400574: gattling_gun141
+    400576: gattling_gun142
+    400578: gattling_gun143
+    400580: gattling_gun144
+    400582: gattling_gun145
+    400584: gattling_gun146
+    400586: gattling_gun147
+    400588: gattling_gun148
+    400590: gattling_gun149
+    400592: gattling_gun15
+    400594: gattling_gun150
+    400596: gattling_gun151
+    400598: gattling_gun152
+    400600: gattling_gun153
+    400602: gattling_gun16
+    400604: gattling_gun17
+    400606: gattling_gun18
+    400608: gattling_gun28
+    400610: gattling_gun29
+    400612: gattling_gun30
+    400614: gattling_gun31
+    400616: gattling_gun32
+    400618: gattling_gun33
+    400620: gattling_gun34
+    400622: gattling_gun35
+    400624: gattling_gun36
+    400626: gattling_gun37
+    400628: gattling_gun38
+    400630: gattling_gun39
+    400632: gattling_gun40
+    400634: gattling_gun41
+    400636: gattling_gun42
+    400638: gattling_gun43
+    400640: gattling_gun44
+    400642: gattling_gun45
+    400644: gattling_gun46
+    400646: gattling_gun47
+    400648: gattling_gun48
+    400650: gattling_gun49
+    400652: gattling_gun50
+    400654: gattling_gun51
+    400656: gattling_gun52
+    400658: gattling_gun53
+    400660: gattling_gun54
+    400662: gattling_gun55
+    400664: gattling_gun56
+    400666: gattling_gun57
+    400668: gattling_gun58
+    400670: gattling_gun59
+    400672: gattling_gun60
+    400674: gattling_gun61
+    400676: gattling_gun62
+    400678: gattling_gun63
+    400680: gattling_gun64
+    400682: gattling_gun65
+    400684: gattling_gun66
+    400686: gattling_gun67
+    400688: gattling_gun68
+    400690: gattling_gun69
+    400692: gattling_gun70
+    400694: gattling_gun71
+    400696: gattling_gun72
+    400698: gattling_gun73
+    400700: gattling_gun74
+    400702: gattling_gun75
+    400704: gattling_gun76
+    400706: gattling_gun77
+    400708: gattling_gun78
+    400710: gattling_gun79
+    400712: gattling_gun80
+    400714: gattling_gun81
+    400716: gattling_gun82
+    400718: gattling_gun83
+    400720: gattling_gun84
+    400722: gattling_gun85
+    400724: gattling_gun86
+    400726: gattling_gun87
+    400728: gattling_gun88
+    400730: gattling_gun89
+    400732: gattling_gun90
+    400734: gattling_gun91
+    400736: gattling_gun92
+    400738: gattling_gun93
+    400740: gattling_gun94
+    400742: gattling_gun95
+    400744: gattling_gun96
+    400746: gattling_gun97
+    400748: gattling_gun98
+    400750: gattling_gun99
+    400752: gattling_turret
+    400754: gattling_turret01
+    400756: gattling_turret02
+    400758: gattling_turret04
+    400760: gattling_turret05
+    400762: gattling_turret06
+    400764: gattling_turret07
+    400766: gattling_turret08
+    400768: gattling_turret09
+    400770: gattling_turret10
+    400772: gattling_turret11
+    400774: gattling_turret12
+    400776: gattling_turret13
+    400778: gattling_turret14
+    400780: gattling_turret15
+    400782: gattling_turret16
+    400784: gattling_turret17
+    400786: Guns Platform
+    400788: main hull
+    400790: Object11
+    400792: parts
+    400794: parts 1
+    400796: parts 2
+    400798: parts 3
+    400800: parts03
+    400802: ship_command_deck_aux
+    400804: ship_excelsius
+    400806: ship_hull
+    400808: ship_hull 1
+    400810: ship_hull 2
+    400812: ship_hull 3
+    400814: ship_launch
+    400816: ship_launch 1
+    400818: ship_launch_bay
+    400820: ship_launch_bay 1
+    400822: ship_launch_bay 2
+    400824: ship_launch_bay 3
+    400826: ship_launch_bay 4
+    400828: ship_SFD
+    400830: ship_thrusters
+    400832: ship_thrusters 1
+    400834: ship_thrusters 10
+    400836: ship_thrusters 11
+    400838: ship_thrusters 12
+    400840: ship_thrusters 13
+    400842: ship_thrusters 14
+    400844: ship_thrusters 2
+    400846: ship_thrusters 3
+    400848: ship_thrusters 4
+    400850: ship_thrusters 5
+    400852: ship_thrusters 6
+    400854: ship_thrusters 7
+    400856: ship_thrusters 8
+    400858: ship_thrusters 9
+    400860: ship_turret_platform
+    400862: ship_turret_platform 1
+    400864: ship_vent
+    400866: ship_vent 1
+    400868: ship_vent 2
+    400870: ship_windows
+    400872: torpedo_hull
+    2300000: AA_gattling_base
+    2300002: AA_gattling_base 1
+    2300004: AA_gattling_base 2
+    2300006: AA_gattling_base 3
+    2300008: AA_gattling_base 4
+    2300010: AA_gattling_base 5
+    2300012: AA_gattling_base 6
+    2300014: AA_gattling_base 7
+    2300016: AA_gattling_gun
+    2300018: AA_gattling_gun 1
+    2300020: AA_gattling_gun 10
+    2300022: AA_gattling_gun 11
+    2300024: AA_gattling_gun 12
+    2300026: AA_gattling_gun 13
+    2300028: AA_gattling_gun 14
+    2300030: AA_gattling_gun 15
+    2300032: AA_gattling_gun 16
+    2300034: AA_gattling_gun 17
+    2300036: AA_gattling_gun 18
+    2300038: AA_gattling_gun 19
+    2300040: AA_gattling_gun 2
+    2300042: AA_gattling_gun 20
+    2300044: AA_gattling_gun 21
+    2300046: AA_gattling_gun 22
+    2300048: AA_gattling_gun 23
+    2300050: AA_gattling_gun 24
+    2300052: AA_gattling_gun 25
+    2300054: AA_gattling_gun 26
+    2300056: AA_gattling_gun 27
+    2300058: AA_gattling_gun 28
+    2300060: AA_gattling_gun 29
+    2300062: AA_gattling_gun 3
+    2300064: AA_gattling_gun 30
+    2300066: AA_gattling_gun 31
+    2300068: AA_gattling_gun 32
+    2300070: AA_gattling_gun 33
+    2300072: AA_gattling_gun 34
+    2300074: AA_gattling_gun 35
+    2300076: AA_gattling_gun 36
+    2300078: AA_gattling_gun 37
+    2300080: AA_gattling_gun 38
+    2300082: AA_gattling_gun 39
+    2300084: AA_gattling_gun 4
+    2300086: AA_gattling_gun 40
+    2300088: AA_gattling_gun 41
+    2300090: AA_gattling_gun 42
+    2300092: AA_gattling_gun 43
+    2300094: AA_gattling_gun 44
+    2300096: AA_gattling_gun 45
+    2300098: AA_gattling_gun 46
+    2300100: AA_gattling_gun 47
+    2300102: AA_gattling_gun 48
+    2300104: AA_gattling_gun 49
+    2300106: AA_gattling_gun 5
+    2300108: AA_gattling_gun 50
+    2300110: AA_gattling_gun 51
+    2300112: AA_gattling_gun 52
+    2300114: AA_gattling_gun 53
+    2300116: AA_gattling_gun 54
+    2300118: AA_gattling_gun 55
+    2300120: AA_gattling_gun 56
+    2300122: AA_gattling_gun 57
+    2300124: AA_gattling_gun 58
+    2300126: AA_gattling_gun 59
+    2300128: AA_gattling_gun 6
+    2300130: AA_gattling_gun 60
+    2300132: AA_gattling_gun 61
+    2300134: AA_gattling_gun 62
+    2300136: AA_gattling_gun 63
+    2300138: AA_gattling_gun 64
+    2300140: AA_gattling_gun 65
+    2300142: AA_gattling_gun 66
+    2300144: AA_gattling_gun 67
+    2300146: AA_gattling_gun 68
+    2300148: AA_gattling_gun 69
+    2300150: AA_gattling_gun 7
+    2300152: AA_gattling_gun 8
+    2300154: AA_gattling_gun 9
+    2300156: AA_gattling_turret
+    2300158: AA_gattling_turret 1
+    2300160: AA_gattling_turret 10
+    2300162: AA_gattling_turret 11
+    2300164: AA_gattling_turret 12
+    2300166: AA_gattling_turret 13
+    2300168: AA_gattling_turret 2
+    2300170: AA_gattling_turret 3
+    2300172: AA_gattling_turret 4
+    2300174: AA_gattling_turret 5
+    2300176: AA_gattling_turret 6
+    2300178: AA_gattling_turret 7
+    2300180: AA_gattling_turret 8
+    2300182: AA_gattling_turret 9
+    2300184: Box09
+    2300186: Box19
+    2300188: Box21
+    2300190: Box22
+    2300192: cannon_medium_base
+    2300194: cannon_medium_base 1
+    2300196: cannon_medium_base 10
+    2300198: cannon_medium_base 11
+    2300200: cannon_medium_base 12
+    2300202: cannon_medium_base 13
+    2300204: cannon_medium_base 14
+    2300206: cannon_medium_base 15
+    2300208: cannon_medium_base 16
+    2300210: cannon_medium_base 17
+    2300212: cannon_medium_base 2
+    2300214: cannon_medium_base 3
+    2300216: cannon_medium_base 4
+    2300218: cannon_medium_base 5
+    2300220: cannon_medium_base 6
+    2300222: cannon_medium_base 7
+    2300224: cannon_medium_base 8
+    2300226: cannon_medium_base 9
+    2300228: cannon_medium_gun
+    2300230: cannon_medium_gun 1
+    2300232: cannon_medium_gun 10
+    2300234: cannon_medium_gun 11
+    2300236: cannon_medium_gun 12
+    2300238: cannon_medium_gun 13
+    2300240: cannon_medium_gun 14
+    2300242: cannon_medium_gun 15
+    2300244: cannon_medium_gun 16
+    2300246: cannon_medium_gun 17
+    2300248: cannon_medium_gun 18
+    2300250: cannon_medium_gun 19
+    2300252: cannon_medium_gun 2
+    2300254: cannon_medium_gun 20
+    2300256: cannon_medium_gun 21
+    2300258: cannon_medium_gun 22
+    2300260: cannon_medium_gun 23
+    2300262: cannon_medium_gun 24
+    2300264: cannon_medium_gun 25
+    2300266: cannon_medium_gun 26
+    2300268: cannon_medium_gun 27
+    2300270: cannon_medium_gun 28
+    2300272: cannon_medium_gun 29
+    2300274: cannon_medium_gun 3
+    2300276: cannon_medium_gun 4
+    2300278: cannon_medium_gun 5
+    2300280: cannon_medium_gun 6
+    2300282: cannon_medium_gun 7
+    2300284: cannon_medium_gun 8
+    2300286: cannon_medium_gun 9
+    2300288: //RootNode
+    2300290: Cube
+    2300292: Cube_1
+    2300294: Cube_2
+    2300296: decal_crest
+    2300298: decal_launch
+    2300300: decal_launch 1
+    2300302: gattling_base
+    2300304: gattling_base01
+    2300306: gattling_base02
+    2300308: gattling_base04
+    2300310: gattling_base05
+    2300312: gattling_base06
+    2300314: gattling_base07
+    2300316: gattling_base08
+    2300318: gattling_base09
+    2300320: gattling_base10
+    2300322: gattling_base11
+    2300324: gattling_base12
+    2300326: gattling_base13
+    2300328: gattling_base14
+    2300330: gattling_base15
+    2300332: gattling_base16
+    2300334: gattling_base17
+    2300336: gattling_gun 1
+    2300338: gattling_gun 2
+    2300340: gattling_gun 3
+    2300342: gattling_gun 4
+    2300344: gattling_gun 5
+    2300346: gattling_gun 6
+    2300348: gattling_gun 7
+    2300350: gattling_gun 8
+    2300352: gattling_gun02
+    2300354: gattling_gun03
+    2300356: gattling_gun04
+    2300358: gattling_gun05
+    2300360: gattling_gun06
+    2300362: gattling_gun07
+    2300364: gattling_gun08
+    2300366: gattling_gun09
+    2300368: gattling_gun101
+    2300370: gattling_gun102
+    2300372: gattling_gun103
+    2300374: gattling_gun104
+    2300376: gattling_gun105
+    2300378: gattling_gun106
+    2300380: gattling_gun107
+    2300382: gattling_gun108
+    2300384: gattling_gun11
+    2300386: gattling_gun110
+    2300388: gattling_gun111
+    2300390: gattling_gun112
+    2300392: gattling_gun113
+    2300394: gattling_gun114
+    2300396: gattling_gun115
+    2300398: gattling_gun116
+    2300400: gattling_gun117
+    2300402: gattling_gun119
+    2300404: gattling_gun12
+    2300406: gattling_gun120
+    2300408: gattling_gun121
+    2300410: gattling_gun122
+    2300412: gattling_gun123
+    2300414: gattling_gun124
+    2300416: gattling_gun125
+    2300418: gattling_gun126
+    2300420: gattling_gun128
+    2300422: gattling_gun129
+    2300424: gattling_gun13
+    2300426: gattling_gun130
+    2300428: gattling_gun131
+    2300430: gattling_gun132
+    2300432: gattling_gun133
+    2300434: gattling_gun134
+    2300436: gattling_gun135
+    2300438: gattling_gun137
+    2300440: gattling_gun138
+    2300442: gattling_gun139
+    2300444: gattling_gun14
+    2300446: gattling_gun140
+    2300448: gattling_gun141
+    2300450: gattling_gun142
+    2300452: gattling_gun143
+    2300454: gattling_gun144
+    2300456: gattling_gun146
+    2300458: gattling_gun147
+    2300460: gattling_gun148
+    2300462: gattling_gun149
+    2300464: gattling_gun15
+    2300466: gattling_gun150
+    2300468: gattling_gun151
+    2300470: gattling_gun152
+    2300472: gattling_gun153
+    2300474: gattling_gun16
+    2300476: gattling_gun17
+    2300478: gattling_gun18
+    2300480: gattling_gun29
+    2300482: gattling_gun30
+    2300484: gattling_gun31
+    2300486: gattling_gun32
+    2300488: gattling_gun33
+    2300490: gattling_gun34
+    2300492: gattling_gun35
+    2300494: gattling_gun36
+    2300496: gattling_gun38
+    2300498: gattling_gun39
+    2300500: gattling_gun40
+    2300502: gattling_gun41
+    2300504: gattling_gun42
+    2300506: gattling_gun43
+    2300508: gattling_gun44
+    2300510: gattling_gun45
+    2300512: gattling_gun47
+    2300514: gattling_gun48
+    2300516: gattling_gun49
+    2300518: gattling_gun50
+    2300520: gattling_gun51
+    2300522: gattling_gun52
+    2300524: gattling_gun53
+    2300526: gattling_gun54
+    2300528: gattling_gun56
+    2300530: gattling_gun57
+    2300532: gattling_gun58
+    2300534: gattling_gun59
+    2300536: gattling_gun60
+    2300538: gattling_gun61
+    2300540: gattling_gun62
+    2300542: gattling_gun63
+    2300544: gattling_gun65
+    2300546: gattling_gun66
+    2300548: gattling_gun67
+    2300550: gattling_gun68
+    2300552: gattling_gun69
+    2300554: gattling_gun70
+    2300556: gattling_gun71
+    2300558: gattling_gun72
+    2300560: gattling_gun74
+    2300562: gattling_gun75
+    2300564: gattling_gun76
+    2300566: gattling_gun77
+    2300568: gattling_gun78
+    2300570: gattling_gun79
+    2300572: gattling_gun80
+    2300574: gattling_gun81
+    2300576: gattling_gun83
+    2300578: gattling_gun84
+    2300580: gattling_gun85
+    2300582: gattling_gun86
+    2300584: gattling_gun87
+    2300586: gattling_gun88
+    2300588: gattling_gun89
+    2300590: gattling_gun90
+    2300592: gattling_gun92
+    2300594: gattling_gun93
+    2300596: gattling_gun94
+    2300598: gattling_gun95
+    2300600: gattling_gun96
+    2300602: gattling_gun97
+    2300604: gattling_gun98
+    2300606: gattling_gun99
+    2300608: gattling_turret
+    2300610: gattling_turret01
+    2300612: gattling_turret02
+    2300614: gattling_turret04
+    2300616: gattling_turret05
+    2300618: gattling_turret06
+    2300620: gattling_turret07
+    2300622: gattling_turret08
+    2300624: gattling_turret09
+    2300626: gattling_turret10
+    2300628: gattling_turret11
+    2300630: gattling_turret12
+    2300632: gattling_turret13
+    2300634: gattling_turret14
+    2300636: gattling_turret15
+    2300638: gattling_turret16
+    2300640: gattling_turret17
+    2300642: Object11
+    2300644: parts
+    2300646: parts 1
+    2300648: parts 2
+    2300650: parts 3
+    2300652: parts03
+    2300654: ship_command_deck_aux
+    2300656: ship_hull
+    2300658: ship_hull 1
+    2300660: ship_hull 2
+    2300662: ship_hull 3
+    2300664: ship_launch
+    2300666: ship_launch 1
+    2300668: ship_launch_bay
+    2300670: ship_launch_bay 1
+    2300672: ship_launch_bay 2
+    2300674: ship_launch_bay 3
+    2300676: ship_launch_bay 4
+    2300678: ship_thrusters 10
+    2300680: ship_thrusters 11
+    2300682: ship_thrusters 12
+    2300684: ship_thrusters 13
+    2300686: ship_thrusters 14
+    2300688: ship_thrusters 3
+    2300690: ship_thrusters 4
+    2300692: ship_thrusters 5
+    2300694: ship_thrusters 6
+    2300696: ship_thrusters 7
+    2300698: ship_thrusters 8
+    2300700: ship_thrusters 9
+    2300702: ship_turret_platform
+    2300704: ship_turret_platform 1
+    2300706: ship_vent
+    2300708: ship_vent 1
+    2300710: ship_vent 2
+    2300712: ship_windows
+    2300714: torpedo_hull
+    3300000: AA_gattling_base
+    3300002: AA_gattling_base 1
+    3300004: AA_gattling_base 2
+    3300006: AA_gattling_base 3
+    3300008: AA_gattling_base 4
+    3300010: AA_gattling_base 5
+    3300012: AA_gattling_base 6
+    3300014: AA_gattling_base 7
+    3300016: AA_gattling_gun
+    3300018: AA_gattling_gun 1
+    3300020: AA_gattling_gun 10
+    3300022: AA_gattling_gun 11
+    3300024: AA_gattling_gun 12
+    3300026: AA_gattling_gun 13
+    3300028: AA_gattling_gun 14
+    3300030: AA_gattling_gun 15
+    3300032: AA_gattling_gun 16
+    3300034: AA_gattling_gun 17
+    3300036: AA_gattling_gun 18
+    3300038: AA_gattling_gun 19
+    3300040: AA_gattling_gun 2
+    3300042: AA_gattling_gun 20
+    3300044: AA_gattling_gun 21
+    3300046: AA_gattling_gun 22
+    3300048: AA_gattling_gun 23
+    3300050: AA_gattling_gun 24
+    3300052: AA_gattling_gun 25
+    3300054: AA_gattling_gun 26
+    3300056: AA_gattling_gun 27
+    3300058: AA_gattling_gun 28
+    3300060: AA_gattling_gun 29
+    3300062: AA_gattling_gun 3
+    3300064: AA_gattling_gun 30
+    3300066: AA_gattling_gun 31
+    3300068: AA_gattling_gun 32
+    3300070: AA_gattling_gun 33
+    3300072: AA_gattling_gun 34
+    3300074: AA_gattling_gun 35
+    3300076: AA_gattling_gun 36
+    3300078: AA_gattling_gun 37
+    3300080: AA_gattling_gun 38
+    3300082: AA_gattling_gun 39
+    3300084: AA_gattling_gun 4
+    3300086: AA_gattling_gun 40
+    3300088: AA_gattling_gun 41
+    3300090: AA_gattling_gun 42
+    3300092: AA_gattling_gun 43
+    3300094: AA_gattling_gun 44
+    3300096: AA_gattling_gun 45
+    3300098: AA_gattling_gun 46
+    3300100: AA_gattling_gun 47
+    3300102: AA_gattling_gun 48
+    3300104: AA_gattling_gun 49
+    3300106: AA_gattling_gun 5
+    3300108: AA_gattling_gun 50
+    3300110: AA_gattling_gun 51
+    3300112: AA_gattling_gun 52
+    3300114: AA_gattling_gun 53
+    3300116: AA_gattling_gun 54
+    3300118: AA_gattling_gun 55
+    3300120: AA_gattling_gun 56
+    3300122: AA_gattling_gun 57
+    3300124: AA_gattling_gun 58
+    3300126: AA_gattling_gun 59
+    3300128: AA_gattling_gun 6
+    3300130: AA_gattling_gun 60
+    3300132: AA_gattling_gun 61
+    3300134: AA_gattling_gun 62
+    3300136: AA_gattling_gun 63
+    3300138: AA_gattling_gun 64
+    3300140: AA_gattling_gun 65
+    3300142: AA_gattling_gun 66
+    3300144: AA_gattling_gun 67
+    3300146: AA_gattling_gun 68
+    3300148: AA_gattling_gun 69
+    3300150: AA_gattling_gun 7
+    3300152: AA_gattling_gun 8
+    3300154: AA_gattling_gun 9
+    3300156: AA_gattling_turret
+    3300158: AA_gattling_turret 1
+    3300160: AA_gattling_turret 10
+    3300162: AA_gattling_turret 11
+    3300164: AA_gattling_turret 12
+    3300166: AA_gattling_turret 13
+    3300168: AA_gattling_turret 2
+    3300170: AA_gattling_turret 3
+    3300172: AA_gattling_turret 4
+    3300174: AA_gattling_turret 5
+    3300176: AA_gattling_turret 6
+    3300178: AA_gattling_turret 7
+    3300180: AA_gattling_turret 8
+    3300182: AA_gattling_turret 9
+    3300184: Box09
+    3300186: Box19
+    3300188: Box21
+    3300190: Box22
+    3300192: cannon_medium_base
+    3300194: cannon_medium_base 1
+    3300196: cannon_medium_base 10
+    3300198: cannon_medium_base 11
+    3300200: cannon_medium_base 12
+    3300202: cannon_medium_base 13
+    3300204: cannon_medium_base 14
+    3300206: cannon_medium_base 15
+    3300208: cannon_medium_base 16
+    3300210: cannon_medium_base 17
+    3300212: cannon_medium_base 2
+    3300214: cannon_medium_base 3
+    3300216: cannon_medium_base 4
+    3300218: cannon_medium_base 5
+    3300220: cannon_medium_base 6
+    3300222: cannon_medium_base 7
+    3300224: cannon_medium_base 8
+    3300226: cannon_medium_base 9
+    3300228: cannon_medium_gun
+    3300230: cannon_medium_gun 1
+    3300232: cannon_medium_gun 10
+    3300234: cannon_medium_gun 11
+    3300236: cannon_medium_gun 12
+    3300238: cannon_medium_gun 13
+    3300240: cannon_medium_gun 14
+    3300242: cannon_medium_gun 15
+    3300244: cannon_medium_gun 16
+    3300246: cannon_medium_gun 17
+    3300248: cannon_medium_gun 18
+    3300250: cannon_medium_gun 19
+    3300252: cannon_medium_gun 2
+    3300254: cannon_medium_gun 20
+    3300256: cannon_medium_gun 21
+    3300258: cannon_medium_gun 22
+    3300260: cannon_medium_gun 23
+    3300262: cannon_medium_gun 24
+    3300264: cannon_medium_gun 25
+    3300266: cannon_medium_gun 26
+    3300268: cannon_medium_gun 27
+    3300270: cannon_medium_gun 28
+    3300272: cannon_medium_gun 29
+    3300274: cannon_medium_gun 3
+    3300276: cannon_medium_gun 4
+    3300278: cannon_medium_gun 5
+    3300280: cannon_medium_gun 6
+    3300282: cannon_medium_gun 7
+    3300284: cannon_medium_gun 8
+    3300286: cannon_medium_gun 9
+    3300288: //RootNode
+    3300290: Cube
+    3300292: Cube_1
+    3300294: Cube_2
+    3300296: decal_crest
+    3300298: decal_launch
+    3300300: decal_launch 1
+    3300302: gattling_base
+    3300304: gattling_base01
+    3300306: gattling_base02
+    3300308: gattling_base04
+    3300310: gattling_base05
+    3300312: gattling_base06
+    3300314: gattling_base07
+    3300316: gattling_base08
+    3300318: gattling_base09
+    3300320: gattling_base10
+    3300322: gattling_base11
+    3300324: gattling_base12
+    3300326: gattling_base13
+    3300328: gattling_base14
+    3300330: gattling_base15
+    3300332: gattling_base16
+    3300334: gattling_base17
+    3300336: gattling_gun 1
+    3300338: gattling_gun 2
+    3300340: gattling_gun 3
+    3300342: gattling_gun 4
+    3300344: gattling_gun 5
+    3300346: gattling_gun 6
+    3300348: gattling_gun 7
+    3300350: gattling_gun 8
+    3300352: gattling_gun02
+    3300354: gattling_gun03
+    3300356: gattling_gun04
+    3300358: gattling_gun05
+    3300360: gattling_gun06
+    3300362: gattling_gun07
+    3300364: gattling_gun08
+    3300366: gattling_gun09
+    3300368: gattling_gun101
+    3300370: gattling_gun102
+    3300372: gattling_gun103
+    3300374: gattling_gun104
+    3300376: gattling_gun105
+    3300378: gattling_gun106
+    3300380: gattling_gun107
+    3300382: gattling_gun108
+    3300384: gattling_gun11
+    3300386: gattling_gun110
+    3300388: gattling_gun111
+    3300390: gattling_gun112
+    3300392: gattling_gun113
+    3300394: gattling_gun114
+    3300396: gattling_gun115
+    3300398: gattling_gun116
+    3300400: gattling_gun117
+    3300402: gattling_gun119
+    3300404: gattling_gun12
+    3300406: gattling_gun120
+    3300408: gattling_gun121
+    3300410: gattling_gun122
+    3300412: gattling_gun123
+    3300414: gattling_gun124
+    3300416: gattling_gun125
+    3300418: gattling_gun126
+    3300420: gattling_gun128
+    3300422: gattling_gun129
+    3300424: gattling_gun13
+    3300426: gattling_gun130
+    3300428: gattling_gun131
+    3300430: gattling_gun132
+    3300432: gattling_gun133
+    3300434: gattling_gun134
+    3300436: gattling_gun135
+    3300438: gattling_gun137
+    3300440: gattling_gun138
+    3300442: gattling_gun139
+    3300444: gattling_gun14
+    3300446: gattling_gun140
+    3300448: gattling_gun141
+    3300450: gattling_gun142
+    3300452: gattling_gun143
+    3300454: gattling_gun144
+    3300456: gattling_gun146
+    3300458: gattling_gun147
+    3300460: gattling_gun148
+    3300462: gattling_gun149
+    3300464: gattling_gun15
+    3300466: gattling_gun150
+    3300468: gattling_gun151
+    3300470: gattling_gun152
+    3300472: gattling_gun153
+    3300474: gattling_gun16
+    3300476: gattling_gun17
+    3300478: gattling_gun18
+    3300480: gattling_gun29
+    3300482: gattling_gun30
+    3300484: gattling_gun31
+    3300486: gattling_gun32
+    3300488: gattling_gun33
+    3300490: gattling_gun34
+    3300492: gattling_gun35
+    3300494: gattling_gun36
+    3300496: gattling_gun38
+    3300498: gattling_gun39
+    3300500: gattling_gun40
+    3300502: gattling_gun41
+    3300504: gattling_gun42
+    3300506: gattling_gun43
+    3300508: gattling_gun44
+    3300510: gattling_gun45
+    3300512: gattling_gun47
+    3300514: gattling_gun48
+    3300516: gattling_gun49
+    3300518: gattling_gun50
+    3300520: gattling_gun51
+    3300522: gattling_gun52
+    3300524: gattling_gun53
+    3300526: gattling_gun54
+    3300528: gattling_gun56
+    3300530: gattling_gun57
+    3300532: gattling_gun58
+    3300534: gattling_gun59
+    3300536: gattling_gun60
+    3300538: gattling_gun61
+    3300540: gattling_gun62
+    3300542: gattling_gun63
+    3300544: gattling_gun65
+    3300546: gattling_gun66
+    3300548: gattling_gun67
+    3300550: gattling_gun68
+    3300552: gattling_gun69
+    3300554: gattling_gun70
+    3300556: gattling_gun71
+    3300558: gattling_gun72
+    3300560: gattling_gun74
+    3300562: gattling_gun75
+    3300564: gattling_gun76
+    3300566: gattling_gun77
+    3300568: gattling_gun78
+    3300570: gattling_gun79
+    3300572: gattling_gun80
+    3300574: gattling_gun81
+    3300576: gattling_gun83
+    3300578: gattling_gun84
+    3300580: gattling_gun85
+    3300582: gattling_gun86
+    3300584: gattling_gun87
+    3300586: gattling_gun88
+    3300588: gattling_gun89
+    3300590: gattling_gun90
+    3300592: gattling_gun92
+    3300594: gattling_gun93
+    3300596: gattling_gun94
+    3300598: gattling_gun95
+    3300600: gattling_gun96
+    3300602: gattling_gun97
+    3300604: gattling_gun98
+    3300606: gattling_gun99
+    3300608: gattling_turret
+    3300610: gattling_turret01
+    3300612: gattling_turret02
+    3300614: gattling_turret04
+    3300616: gattling_turret05
+    3300618: gattling_turret06
+    3300620: gattling_turret07
+    3300622: gattling_turret08
+    3300624: gattling_turret09
+    3300626: gattling_turret10
+    3300628: gattling_turret11
+    3300630: gattling_turret12
+    3300632: gattling_turret13
+    3300634: gattling_turret14
+    3300636: gattling_turret15
+    3300638: gattling_turret16
+    3300640: gattling_turret17
+    3300642: Object11
+    3300644: parts
+    3300646: parts 1
+    3300648: parts 2
+    3300650: parts 3
+    3300652: parts03
+    3300654: ship_command_deck_aux
+    3300656: ship_hull
+    3300658: ship_hull 1
+    3300660: ship_hull 2
+    3300662: ship_hull 3
+    3300664: ship_launch
+    3300666: ship_launch 1
+    3300668: ship_launch_bay
+    3300670: ship_launch_bay 1
+    3300672: ship_launch_bay 2
+    3300674: ship_launch_bay 3
+    3300676: ship_launch_bay 4
+    3300678: ship_thrusters 10
+    3300680: ship_thrusters 11
+    3300682: ship_thrusters 12
+    3300684: ship_thrusters 13
+    3300686: ship_thrusters 14
+    3300688: ship_thrusters 3
+    3300690: ship_thrusters 4
+    3300692: ship_thrusters 5
+    3300694: ship_thrusters 6
+    3300696: ship_thrusters 7
+    3300698: ship_thrusters 8
+    3300700: ship_thrusters 9
+    3300702: ship_turret_platform
+    3300704: ship_turret_platform 1
+    3300706: ship_vent
+    3300708: ship_vent 1
+    3300710: ship_vent 2
+    3300712: ship_windows
+    3300714: torpedo_hull
+    4300000: Manipulator_Damage
+    4300002: ship_thrusters
+    4300004: ship_thrusters
+    4300006: ship_thrusters
+    4300008: ship_thrusters
+    4300010: ship_thrusters
+    4300012: ship_thrusters
+    4300014: Box09
+    4300016: Box19
+    4300018: Box21
+    4300020: Box22
+    4300022: AA_gattling_base
+    4300024: AA_gattling_turret
+    4300026: AA_gattling_gun
+    4300028: AA_gattling_gun
+    4300030: AA_gattling_gun
+    4300032: AA_gattling_gun
+    4300034: AA_gattling_gun
+    4300036: AA_gattling_turret
+    4300038: AA_gattling_gun
+    4300040: AA_gattling_gun
+    4300042: AA_gattling_gun
+    4300044: AA_gattling_gun
+    4300046: AA_gattling_gun
+    4300048: AA_gattling_base
+    4300050: AA_gattling_turret
+    4300052: AA_gattling_gun
+    4300054: AA_gattling_gun
+    4300056: AA_gattling_gun
+    4300058: AA_gattling_gun
+    4300060: AA_gattling_gun
+    4300062: AA_gattling_turret
+    4300064: AA_gattling_gun
+    4300066: AA_gattling_gun
+    4300068: AA_gattling_gun
+    4300070: AA_gattling_gun
+    4300072: AA_gattling_gun
+    4300074: AA_gattling_base
+    4300076: AA_gattling_turret
+    4300078: AA_gattling_gun
+    4300080: AA_gattling_gun
+    4300082: AA_gattling_gun
+    4300084: AA_gattling_gun
+    4300086: AA_gattling_gun
+    4300088: AA_gattling_turret
+    4300090: AA_gattling_gun
+    4300092: AA_gattling_gun
+    4300094: AA_gattling_gun
+    4300096: AA_gattling_gun
+    4300098: AA_gattling_gun
+    4300100: AA_gattling_base
+    4300102: AA_gattling_turret
+    4300104: AA_gattling_gun
+    4300106: AA_gattling_gun
+    4300108: AA_gattling_gun
+    4300110: AA_gattling_gun
+    4300112: AA_gattling_gun
+    4300114: AA_gattling_turret
+    4300116: AA_gattling_gun
+    4300118: AA_gattling_gun
+    4300120: AA_gattling_gun
+    4300122: AA_gattling_gun
+    4300124: AA_gattling_gun
+    4300126: AA_gattling_base
+    4300128: AA_gattling_turret
+    4300130: AA_gattling_gun
+    4300132: AA_gattling_gun
+    4300134: AA_gattling_gun
+    4300136: AA_gattling_gun
+    4300138: AA_gattling_gun
+    4300140: AA_gattling_turret
+    4300142: AA_gattling_gun
+    4300144: AA_gattling_gun
+    4300146: AA_gattling_gun
+    4300148: AA_gattling_gun
+    4300150: AA_gattling_gun
+    4300152: AA_gattling_base
+    4300154: AA_gattling_turret
+    4300156: AA_gattling_gun
+    4300158: AA_gattling_gun
+    4300160: AA_gattling_gun
+    4300162: AA_gattling_gun
+    4300164: AA_gattling_gun
+    4300166: AA_gattling_turret
+    4300168: AA_gattling_gun
+    4300170: AA_gattling_gun
+    4300172: AA_gattling_gun
+    4300174: AA_gattling_gun
+    4300176: AA_gattling_gun
+    4300178: cannon_medium_base
+    4300180: cannon_medium_base
+    4300182: cannon_medium_base
+    4300184: cannon_medium_gun
+    4300186: cannon_medium_gun
+    4300188: cannon_medium_gun
+    4300190: cannon_medium_gun
+    4300192: cannon_medium_gun
+    4300194: cannon_medium_base
+    4300196: cannon_medium_base
+    4300198: cannon_medium_base
+    4300200: cannon_medium_gun
+    4300202: cannon_medium_gun
+    4300204: cannon_medium_gun
+    4300206: cannon_medium_gun
+    4300208: cannon_medium_gun
+    4300210: cannon_medium_base
+    4300212: cannon_medium_base
+    4300214: cannon_medium_base
+    4300216: cannon_medium_gun
+    4300218: cannon_medium_gun
+    4300220: cannon_medium_gun
+    4300222: cannon_medium_gun
+    4300224: cannon_medium_gun
+    4300226: cannon_medium_gun
+    4300228: cannon_medium_gun
+    4300230: cannon_medium_gun
+    4300232: cannon_medium_gun
+    4300234: cannon_medium_gun
+    4300236: cannon_medium_base
+    4300238: cannon_medium_base
+    4300240: cannon_medium_base
+    4300242: cannon_medium_base
+    4300244: cannon_medium_base
+    4300246: cannon_medium_base
+    4300248: cannon_medium_gun
+    4300250: cannon_medium_gun
+    4300252: cannon_medium_gun
+    4300254: cannon_medium_gun
+    4300256: cannon_medium_gun
+    4300258: cannon_medium_base
+    4300260: cannon_medium_base
+    4300262: cannon_medium_base
+    4300264: cannon_medium_gun
+    4300266: cannon_medium_gun
+    4300268: cannon_medium_gun
+    4300270: cannon_medium_gun
+    4300272: cannon_medium_gun
+    4300274: AA_gattling_base
+    4300276: AA_gattling_turret
+    4300278: AA_gattling_gun
+    4300280: AA_gattling_gun
+    4300282: AA_gattling_gun
+    4300284: AA_gattling_gun
+    4300286: AA_gattling_gun
+    4300288: AA_gattling_base
+    4300290: AA_gattling_turret
+    4300292: AA_gattling_gun
+    4300294: AA_gattling_gun
+    4300296: AA_gattling_gun
+    4300298: AA_gattling_gun
+    4300300: AA_gattling_gun
+    4300302: Cube
+    4300304: Cube_1
+    4300306: Cube_2
+    4300308: ship_launch_bay
+    4300310: parts
+    4300312: parts
+    4300314: parts
+    4300316: parts
+    4300318: parts03
+    4300320: Object11
+    4300322: ship_hull
+    4300324: ship_hull
+    4300326: ship_launch_bay
+    4300328: decal_crest
+    4300330: torpedo_hull
+    4300332: ship_launch
+    4300334: ship_turret_platform
+    4300336: ship_turret_platform
+    4300338: ship_hull
+    4300340: ship_vent
+    4300342: ship_hull
+    4300344: ship_thrusters
+    4300346: ship_thrusters
+    4300348: ship_thrusters
+    4300350: ship_thrusters
+    4300352: ship_thrusters
+    4300354: ship_thrusters
+    4300356: ship_launch_bay
+    4300358: ship_launch_bay
+    4300360: ship_vent
+    4300362: ship_launch_bay
+    4300364: ship_vent
+    4300366: ship_command_deck_aux
+    4300368: ship_launch
+    4300370: decal_launch
+    4300372: ship_windows
+    4300374: decal_launch
+    4300376: gattling_base
+    4300378: gattling_turret
+    4300380: gattling_gun
+    4300382: gattling_gun
+    4300384: gattling_gun
+    4300386: gattling_gun
+    4300388: gattling_gun
+    4300390: gattling_gun
+    4300392: gattling_gun
+    4300394: gattling_gun
+    4300396: gattling_base01
+    4300398: gattling_turret01
+    4300400: gattling_gun02
+    4300402: gattling_gun03
+    4300404: gattling_gun04
+    4300406: gattling_gun05
+    4300408: gattling_gun06
+    4300410: gattling_gun07
+    4300412: gattling_gun08
+    4300414: gattling_gun09
+    4300416: gattling_base02
+    4300418: gattling_turret02
+    4300420: gattling_gun11
+    4300422: gattling_gun12
+    4300424: gattling_gun13
+    4300426: gattling_gun14
+    4300428: gattling_gun15
+    4300430: gattling_gun16
+    4300432: gattling_gun17
+    4300434: gattling_gun18
+    4300436: gattling_base04
+    4300438: gattling_turret04
+    4300440: gattling_gun29
+    4300442: gattling_gun30
+    4300444: gattling_gun31
+    4300446: gattling_gun32
+    4300448: gattling_gun33
+    4300450: gattling_gun34
+    4300452: gattling_gun35
+    4300454: gattling_gun36
+    4300456: gattling_base05
+    4300458: gattling_turret05
+    4300460: gattling_gun38
+    4300462: gattling_gun39
+    4300464: gattling_gun40
+    4300466: gattling_gun41
+    4300468: gattling_gun42
+    4300470: gattling_gun43
+    4300472: gattling_gun44
+    4300474: gattling_gun45
+    4300476: gattling_base06
+    4300478: gattling_turret06
+    4300480: gattling_gun47
+    4300482: gattling_gun48
+    4300484: gattling_gun49
+    4300486: gattling_gun50
+    4300488: gattling_gun51
+    4300490: gattling_gun52
+    4300492: gattling_gun53
+    4300494: gattling_gun54
+    4300496: gattling_base07
+    4300498: gattling_turret07
+    4300500: gattling_gun56
+    4300502: gattling_gun57
+    4300504: gattling_gun58
+    4300506: gattling_gun59
+    4300508: gattling_gun60
+    4300510: gattling_gun61
+    4300512: gattling_gun62
+    4300514: gattling_gun63
+    4300516: gattling_base08
+    4300518: gattling_turret08
+    4300520: gattling_gun65
+    4300522: gattling_gun66
+    4300524: gattling_gun67
+    4300526: gattling_gun68
+    4300528: gattling_gun69
+    4300530: gattling_gun70
+    4300532: gattling_gun71
+    4300534: gattling_gun72
+    4300536: gattling_base09
+    4300538: gattling_turret09
+    4300540: gattling_gun74
+    4300542: gattling_gun75
+    4300544: gattling_gun76
+    4300546: gattling_gun77
+    4300548: gattling_gun78
+    4300550: gattling_gun79
+    4300552: gattling_gun80
+    4300554: gattling_gun81
+    4300556: gattling_base10
+    4300558: gattling_turret10
+    4300560: gattling_gun83
+    4300562: gattling_gun84
+    4300564: gattling_gun85
+    4300566: gattling_gun86
+    4300568: gattling_gun87
+    4300570: gattling_gun88
+    4300572: gattling_gun89
+    4300574: gattling_gun90
+    4300576: gattling_base11
+    4300578: gattling_turret11
+    4300580: gattling_gun92
+    4300582: gattling_gun93
+    4300584: gattling_gun94
+    4300586: gattling_gun95
+    4300588: gattling_gun96
+    4300590: gattling_gun97
+    4300592: gattling_gun98
+    4300594: gattling_gun99
+    4300596: gattling_base12
+    4300598: gattling_turret12
+    4300600: gattling_gun101
+    4300602: gattling_gun102
+    4300604: gattling_gun103
+    4300606: gattling_gun104
+    4300608: gattling_gun105
+    4300610: gattling_gun106
+    4300612: gattling_gun107
+    4300614: gattling_gun108
+    4300616: gattling_base13
+    4300618: gattling_turret13
+    4300620: gattling_gun110
+    4300622: gattling_gun111
+    4300624: gattling_gun112
+    4300626: gattling_gun113
+    4300628: gattling_gun114
+    4300630: gattling_gun115
+    4300632: gattling_gun116
+    4300634: gattling_gun117
+    4300636: gattling_base14
+    4300638: gattling_turret14
+    4300640: gattling_gun119
+    4300642: gattling_gun120
+    4300644: gattling_gun121
+    4300646: gattling_gun122
+    4300648: gattling_gun123
+    4300650: gattling_gun124
+    4300652: gattling_gun125
+    4300654: gattling_gun126
+    4300656: gattling_base15
+    4300658: gattling_turret15
+    4300660: gattling_gun128
+    4300662: gattling_gun129
+    4300664: gattling_gun130
+    4300666: gattling_gun131
+    4300668: gattling_gun132
+    4300670: gattling_gun133
+    4300672: gattling_gun134
+    4300674: gattling_gun135
+    4300676: gattling_base16
+    4300678: gattling_turret16
+    4300680: gattling_gun137
+    4300682: gattling_gun138
+    4300684: gattling_gun139
+    4300686: gattling_gun140
+    4300688: gattling_gun141
+    4300690: gattling_gun142
+    4300692: gattling_gun143
+    4300694: gattling_gun144
+    4300696: gattling_base17
+    4300698: gattling_turret17
+    4300700: gattling_gun146
+    4300702: gattling_gun147
+    4300704: gattling_gun148
+    4300706: gattling_gun149
+    4300708: gattling_gun150
+    4300710: gattling_gun151
+    4300712: gattling_gun152
+    4300714: gattling_gun153
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

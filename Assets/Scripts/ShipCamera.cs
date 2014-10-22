@@ -42,7 +42,7 @@ namespace zerog
             else
                 pos.position = playerShip.pos.position + offset;
 
-            cameraTransform.localPosition = Vector3.Lerp(max.localPosition, min.localPosition, zoom);
+            cameraTransform.localPosition = Vector3.Slerp(max.localPosition, min.localPosition, zoom);
         }
 
         bool mousePressed = false;

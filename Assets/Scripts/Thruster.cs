@@ -13,19 +13,19 @@ namespace zerog
 
         public float power;
 
+        ParticleSystem thruster;
+        Light glow;
+
+        float intensity;
+
         void Start()
         {
             pos = transform;
         }
 
-        public Vector3 Thrust(Vector3 direction, float power = 0f)
+        void Thrust(float power)
         {
-            return direction.normalized * power * this.power;
-        }
 
-        public Vector3 Thrust(float power = 0f)
-        {
-            return pos.forward * power * this.power;
         }
     }
 }

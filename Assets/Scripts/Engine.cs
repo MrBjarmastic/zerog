@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using System.Linq;
 
 namespace zerog
 {
@@ -9,6 +10,9 @@ namespace zerog
 
         public Transform pos;
         public ParticleSystem[] thrusters;
+        public Light[] glow;
+
+        public float intensity = 5;
 
 
         private bool firing = false;
@@ -29,8 +33,11 @@ namespace zerog
             }
         }
 
+        public float Accel = 1f;
         public float Power = 1f;
         public float TurnSpeed = 0.5f;
+
+        float activeThrust = 0f;
 
         float deltaV = 0f;
 
@@ -38,6 +45,8 @@ namespace zerog
         void Start()
         {
             pos = transform;
+            glow = GetComponentsInChildren<Light>();
+            thrusters = GetComponentsInChildren<ParticleSystem>();
             //foreach (var th in thrusters)
             //    th.renderer.sortingLayerName = "particles_bottom";
         }
@@ -50,8 +59,17 @@ namespace zerog
             {
                 Fire = true;
                 deltaV = 0;
+
             }
-            else Fire = false;
+            else
+            {
+                Fire = false;
+                activeThrust -= Accel * Time.deltaTime;
+                if (activeThrust < 0)
+                {
+                    activeThrust = 0;
+                }
+            } 
 
             // Loop engine rumble when engines are running
             //if (audio && firing)
@@ -62,13 +80,27 @@ namespace zerog
 
         public Vector3 Thrust(float pw, Vector3 fwd)
         {
-            deltaV = Power * Mathf.Clamp(pw, -2f, 2f);
-            return fwd * pw * Time.deltaTime * deltaV;
+            if (pw > 0)
+            {
+                if (activeThrust < pw * Power)
+                    activeThrust += Accel * Time.deltaTime;
+            }
+            else
+            {
+                if (activeThrust > pw*Power)
+                    activeThrust -= Accel * Time.deltaTime;
+            }
+                
+            deltaV = Power * Mathf.Clamp(pw, -1f, 1f);
+            
+            if (pw >= 0)
+                glow.ToList().ForEach(l => l.intensity = pw * intensity);
+            return fwd * activeThrust;
         }
 
         public float Turn(float pwr)
         {
-            return TurnSpeed * Mathf.Clamp(pwr, -2f, 2f) * Time.deltaTime;
+            return TurnSpeed * Mathf.Clamp(pwr, -2f, 2f);
         }
 
 

@@ -2,9 +2,9 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace zerog
 {
-    public class Orbiter:MonoBehaviour
+    public class Orbiter : MonoBehaviour
     {
         public Transform orbitee;
         Transform orbiter;
@@ -17,7 +17,7 @@ namespace Assets.Scripts
             orbitee = orbiter.parent;
         }
 
-        void Update()
+        void FixedUpdate()
         {
             if (inOrbit)
             {
@@ -30,7 +30,7 @@ namespace Assets.Scripts
             orbiter.parent = null;
             orbitee.parent = t;
             orbitee.localPosition = Vector3.zero;
-            orbitee.parent = null;
+            //orbitee.parent = null;
             orbiter.parent = orbitee;
             inOrbit = true;
         }
